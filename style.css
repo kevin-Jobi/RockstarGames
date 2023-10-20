@@ -1,0 +1,215 @@
+/* ---------------------------body------------------------------------------ */
+body{
+    margin:0%;
+    background-color: black;
+    color: white;
+}
+/* ---------------------------header---------------------------- */
+/* heding---navbar--- */
+#navbar{
+    height: 60px;
+    width: 100%;
+    border-bottom: solid rgb(94, 91, 91) 1px;
+}
+/* --user---btn--on--right */
+.button-nav{
+    border: none;
+    font-size: 7px;
+    background-color: black;
+}
+/* ------menu---button---- */
+.btn{
+    font-size: 30px;
+    border: none;
+    color: white;
+}
+.btn:hover{
+    color: white;
+}
+/* logo---of--rockstar */
+#nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --image--button--in right */
+.imageofuser{
+    width: 40PX;
+    height: 30px;
+    
+}
+/* user--Button--right  */
+#nav-bttn{
+    display: flex;
+    justify-content: end;
+}
+#demo{
+    margin-top: 60px;
+}
+
+/* -----------insidehumburger----------- */
+.navlist{
+   font-size: medium;
+    list-style: none;
+}
+.nav-a{
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 30px;
+      color: white;
+}
+.offcanvas-body{
+    background-color: black;
+}
+.offcanvas-header{
+    background-color: black;
+}
+.ul-navlist{
+    line-height: 50px;
+}
+/* -------------------------------section----1-------------------------------------- */
+#carousel1-item{
+   display: flex;
+   justify-content: space-between;
+   row-gap: 0%;
+}
+.red-dead-cap{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: start;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.red-dead-text{
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.read-dead-ps5{
+    width: 100%;
+    color: white;
+    font-size: 150%;
+
+}
+.carousel-indicators{
+    justify-content: end;
+}
+.watch-now-bttn{
+    width: 8rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    margin-top: 15%;
+}
+.watch-now-bttn:hover{
+    background-color: #ffc800;
+    border:none;
+    color:black;
+}
+.report{
+    padding-top: 4rem;
+}
+.carousel-indicators{
+    font-size: 3rem;
+    padding-left: 100px;
+}
+.carousel-inner{
+    padding: 0%;
+    margin: 0%;
+}
+.card-1{
+    justify-content: space-between;
+}
+.card-date{
+    font-size: 12px;
+    color: grey;
+}
+.card-texto{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.card-textr{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.section-2-new{
+    font-weight: 600;
+    font-size: 2rem; 
+}
+.card{
+    background-color: black;
+}
+.section-2-button{
+    display: flex;
+    justify-content: center;
+}
+.section-2l-btn{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid #ffc800 ;
+    border-radius:5px;
+}
+.section-2l-btn:hover{
+    background-color: #ffc800;
+    color: black;
+}
+/* --------------footer---------------------- */
+.f-footer{
+    font-size: 14px;
+}
+.dropup{
+   float: right;
+}
+.ft-btn{
+    font-size: 2px;
+}
+li{
+    list-style: none;
+}
+.list-of-socialmedia{
+    display: flex;
+    font-size: 1rem;
+    gap: 3rem;
+   justify-content: right;
+}
+.footer-Rockstar{
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-place {
+    font-size: 10px;
+    font-weight: 700;
+}
+.footer-mlm{
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-last{
+    padding-top: 50px;
+}
+.button-of-dropup{
+    font-size: 20px;
+    height: 3rem;
+    width: 6rem;
+}
+.language-menu{
+    background-color: black;
+    color:white !important;
+}
+.li-sm:hover{
+    cursor: pointer;
+}

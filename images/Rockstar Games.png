@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://aswnrh.github.io/Rockstar-Games/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta information -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockstar Games</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://aswnrh.github.io/Rockstar-Games/Images/favicon.png" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./Rockstar Games_files/style.css">
+    <link rel="stylesheet" href="./Rockstar Games_files/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="./Rockstar Games_files/08e020de1811ec4489f82d1247a42c09" rel="stylesheet">
+    <link href="./Rockstar Games_files/instagram.css" rel="stylesheet">
+    <link href="./Rockstar Games_files/twitter" rel="stylesheet">
+    <link href="./Rockstar Games_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+
+<body style="">
+
+    <!-- Offcanvas Navigation -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel" aria-hidden="true" style="visibility: hidden;">
+        <div class="offcanvas-header">
+                <form action="https://aswnrh.github.io/Rockstar-Games/#" class="search-bar mt-5">
+                    <img src="./Rockstar Games_files/newicon.svg" style="height: 30px;">
+                    <input type="text" name="search" placeholder="Search">
+              </form>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                </button>
+        </div>
+
+        <div class="offcanvas-body">
+            <!-- Navigation Links -->
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <h2 class="hamberger mt-5">Newswire</h2><br>
+                </li>
+                <li class="nav-item">
+                  <h2 class="hamberger">Games</h2><br>
+                </li>
+                <li class="nav-item">
+                  <h2 class="hamberger">Vedios</h2><br>
+                </li>
+                <li class="nav-item">
+                  <h2 class="hamberger">Downloads</h2><br>
+                </li>
+                <li class="nav-item">
+                  <h2 class="hamberger">Support <img src="./Rockstar Games_files/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text"></h2><br>
+                </li>
+                <li class="nav-item">
+                  <h2 class="hamberger">Social Club <img src="./Rockstar Games_files/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text"></h2><br>
+                </li>
+                <li class="nav-item">
+                  <h2 class="hamberger">Launcher <img src="./Rockstar Games_files/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text"></h2><br>
+                </li>
+                <li class="nav-item">
+                  <h2 class="hamberger mb-5">Store <img src="./Rockstar Games_files/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text"></h2>
+                </li>
+              </ul>
+        </div>
+    </div>
+
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-light main d-flex justify-content-space-between align-items-center">
+        <div class="container d-flex align-items-center">
+             <!-- Offcanvas Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
+                <img src="./Rockstar Games_files/burger.png" class="burgerfirst">
+            </button>
+            <div class="nav-middle-img mx-auto">
+                <img id="logo-img" src="./Rockstar Games_files/icon logo.svg" alt="">
+            </div>
+
+            <div class="nav-end-icon">
+                <img id="nav-right-icon" src="./Rockstar Games_files/RIGHTICON.svg" alt="Right Arrow Icon" onclick="toggleDropdown()">
+                <div id="dropdown-content" class="dropdown-content" style="display: none;">
+                    <!-- Dropdown Buttons -->
+                    <button class="dropdown-button" onclick="signIn()">Sign In &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Rockstar Games_files/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text"></button>
+                    <button class="dropdown-button" onclick="joinClub()">Join Social Club  
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="./Rockstar Games_files/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Section Part 1 -->
+
+    <section class="section-1">
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-8 image-column">
+                    <img class="img-fluid" src="./Rockstar Games_files/mainimg.avif" alt="Image">
+                </div>
+                <div class="col-lg-4 text-column section-1-img-text p-5">
+                    <div class="section-1-first-line">
+                        <p class="first left-items">Red Dead Redemption</p>
+                    </div>
+                    <div class="section-1-second-line text-large">
+                        <h2 id="section-1-font left-items rightfont ">Now on Nintendo Switch and PS4
+                        </h2>
+                    </div>
+                    <div class="d-grid gap-2 pt-2">
+                        <button class="btn watch-me-btn" type="button">WATCH NOW</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section part-2 -->
+
+    <div class="container mt-4 pt-5 bg-#282828;">
+        <h3 class="mb-4 pt-5 newswire">Newswire</h3>
+        <div class="row">
+            <!-- News Cards -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./Rockstar Games_files/img1.jpg" class="card-img-top" alt="Image 1" style="max-width: 100%;">
+                    <div class="card-body">
+                        <p class="card-text mt-4">Red Dead Online <span class="news-date">September 5, 2023</span> </p>
+                        <h5 class="card-title mb-4">Bounty Hunters Rewarded with a Range of Bounces and Benfits in Red Dead Online</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./Rockstar Games_files/img2.jpg" class="card-img-top" alt="Image 2" style="max-width: 100%;">
+                    <div class="card-body">
+                        <p class="card-text mt-4">GTA Online <span class="news-date">August 31, 2023</span> </p>
+                        <h5 class="card-title mb-4">Los Santos Nightclub Thrive as Sell Missions Deliver Extra and Daily Income Triples</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./Rockstar Games_files/img3.jpg" class="card-img-top" alt="Image 3" style="max-width: 100%;">
+                    <div class="card-body">
+                        <p class="card-text mt-4">Rockstar Games <span class="news-date">August 25, 2023</span> </p>
+                        <h5 class="card-title mb-4">CircoLoco Records Presents Jealous from Mochakk-Available Now</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./Rockstar Games_files/img4.jpg" class="card-img-top" alt="Image 4" style="max-width: 100%;">
+                    <div class="card-body">
+                        <p class="card-text mt-4">GTA Online <span class="news-date">August 24, 2023</span> </p>
+                        <h5 class="card-title mb-4">Cultivate Chaos on Two Wheels With Bounces for Biker Business 
+                        and MC Activities
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./Rockstar Games_files/img5.jpg" class="card-img-top" alt="Image 5" style="max-width: 100%;">
+                    <div class="card-body">
+                        <p class="card-text mt-4">GTA Online <span class="news-date">August 17, 2023</span> </p>
+                        <h5 class="card-title mb-4">Claim the Apocalypse ZE380 and Fight to the Top of the Heap in the Arena War
+                             Series with GTA+ Membership
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./Rockstar Games_files/img6.jpg" class="card-img-top" alt="Image 6" style="max-width: 100%;">
+                    <div class="card-body">
+                        <p class="card-text mt-4">GTA Online <span class="news-date">August 17, 2023</span></p>
+                        <h5 class="card-title mb-4">Suit Up for Executive Bonuses This Week in GTA Online</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="view-btn d-flex justify-content-center align-items-center">
+                <button type="button" class="btn mt-5 view">View More</button>
+            </div>
+            
+    </div>
+
+
+    <!-- Section Part 3 -->
+
+    <div class="container mt-5">
+        <h3 class="featured-games ps-2 pb-3">
+            Featured Games
+        </h3>
+        <div class="row">
+             <!-- Featured Game Cards -->
+            <div class="col-6 col-sm-6 col-md-3 mb-3">
+                <div class="custom-card">
+                    <img src="./Rockstar Games_files/img4-1.jpg" class="card-img" alt="Image 1">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 mb-3">
+                <div class="custom-card">
+                    <img src="./Rockstar Games_files/img4-2.jpg" class="card-img" alt="Image 2">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 mb-3">
+                <div class="custom-card">
+                    <img src="./Rockstar Games_files/img4-3.jpg" class="card-img" alt="Image 3">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 mb-3">
+                <div class="custom-card">
+                    <img src="./Rockstar Games_files/img4-4.jpg" class="card-img" alt="Image 4">
+                </div>
+            </div>
+        </div>
+        <div class="view-btn d-flex justify-content-center align-items-center">
+            <button type="button" class="btn mt-5 view ">View More</button>
+        </div>
+
+    </div>
+
+     <!-- Footer -->
+
+    <footer class="footer pt-4 mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Links -->
+                <div class="col-md-6">
+                    <ul class="footer-links d-flex flex-column flex-sm-row list-unstyled list-sm-inline justify-content-start">
+                        <a class="rklink" href="https://www.rockstargames.com/contact">
+                        <li class="links mb-2 mb-sm-0 mr-sm-3">Contact</li></a>
+                        <a class="rklink" href="https://www.rockstargames.com/careers">
+                        <li class="links mb-2 mb-sm-0 mr-sm-3">Career 
+                            <img src="./Rockstar Games_files/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text"></li></a>
+                            <a class="rklink" href="https://signin.rockstargames.com/signin/user-form?cid=socialclub">
+                            <li class="links">Subscribe <img src="./Rockstar Games_files/bec977f64161454c1120.svg" alt="Icon" class="icon-after-text"></li></a>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-md-6 text-md-right d-flex flex-column justify-content-start align-items-sm-end">
+                    <span class="ml-auto links mb-2 mb-md-0"> <img src="./Rockstar Games_files/globe.svg">&nbsp;&nbsp;English&nbsp;&nbsp;<img src="./Rockstar Games_files/downarrow.svg"> 
+                    </span>
+                </div>
+             
+
+
+
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="footer-links d-flex justify-content-start links-2 align-items-sm-center flex-column flex-sm-row">
+                        <a class="rklink" href="https://www.rockstargames.com/corpinfo">
+                        <li class="footer-2-line-link">Corporate</li></a>
+                        <a class="rklink" href="https://www.rockstargames.com/privacy">
+                        <li class="footer-2-line-link">Privacy</li></a>
+                        <a class="rklink" href="https://aswnrh.github.io/Rockstar-Games/#"></a>
+                        <li class="footer-2-line-link">Cookie Settings</li>
+                        <a class="rklink" href="https://www.rockstargames.com/cookies"></a>
+                        <li class="footer-2-line-link">Cookie Policy</li>
+                        <a class="rklink" href="https://www.rockstargames.com/legal"></a>
+                        <li class="footer-2-line-link">Legal</li>
+                        <a class="rklink" href="https://www.rockstargames.com/ccpa"></a>
+                        <li class="footer-2-line-link">Do Not Sell My Personal Information</li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6 text-md-right d-flex justify-content-center justify-content-sm-end align-items-center">
+                    <a href="https://www.twitch.tv/rockstargames"><img class="footer-icons mx-2 my-2 my-sm-0" src="./Rockstar Games_files/MSGICON.svg" alt="firsticon"></a>
+                    <a href="https://www.instagram.com/rockstargames/"><img class="footer-icons mx-2 my-2 my-sm-0" src="./Rockstar Games_files/instagram.svg" alt=""></a>
+                    <a href="https://twitter.com/rockstargames"><img class="footer-icons mx-2 my-2 my-sm-0" src="./Rockstar Games_files/twitter.svg" alt=""></a>
+                    <a href="https://www.youtube.com/rockstargames"><img class="footer-icons mx-2 my-2 my-sm-0" src="./Rockstar Games_files/youtube.svg" alt=""></a>
+                    <a href="https://www.facebook.com/rockstargames"><img class="footer-icons mx-2 my-2 my-sm-0" src="./Rockstar Games_files/facebook.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 mt-4 pt-4 pb-4 last-line">
+            <div class="container d-flex justify-content-between">
+                <div class="mr-auto  H">Rockstar Games</div>
+                <div class="d-flex justify-content-center">
+                    <div class="mx-2 H">New York</div>
+                    <div class="mx-2 H">London</div>
+                    <div class="mx-2 H">Paris</div>
+                    <div class="H">Bogotá</div>
+                </div>
+                <div class="ml-auto H">MCMXCVIII</div>
+            </div>
+        </div>
+
+    </footer>
+   
+    <!-- Scripts -->
+    <script src="./Rockstar Games_files/script.js.download"></script>
+    <script src="./Rockstar Games_files/bootstrap.bundle.min.js.download" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body></html>
